@@ -150,11 +150,11 @@ To set up a local environment, follow these steps:
    ```sh
    git clone https://github.com/ballerine-io/ballerine.git
    ```
-   2. Install npm depenencies:
+   2. Install npm dependencies:
    ```sh
    pnpm install
    ```
-   3. Initilazie monorepo:
+   3. Initialize monorepo:
    ```sh
    pnpm monorepo:init
    ```
@@ -193,7 +193,7 @@ To start using the paid version or if you need any assistance, reach out to us a
 
 ## Contributing
 
-We appreciate all types of contributions and believe that an active community is the secret to a rich and stable oriduct.
+We appreciate all types of contributions and believe that an active community is the secret to a rich and stable product.
 Here are some of the ways you can contribute:
 
 -   Give us feedback in our  [Slack community](https://join.slack.com/t/ballerine-oss/shared_invite/zt-1iu6otkok-OqBF3TrcpUmFd9oUjNs2iw)
@@ -203,12 +203,12 @@ Here are some of the ways you can contribute:
 ## Roadmap
 ### High level roadmap
 #### Back office
-- [x] ~~View, approve, rejece pr ask for re-submittion~~
+- [x] ~~View, approve, reject pr ask for re-submission~~
 	- [x] ~~individuals~~
 	- [x] ~~businesses (multiple documents and individuals)~~
 	- [x] ~~Custom documents/information~~
 	- [ ] Transactions
-- [x] ~~Process managment~~
+- [x] ~~Process management~~
 	- [x] ~~Collect audit logs~~
 	- [x] ~~Assign/re-assign agents~~
 	- [x] ~~Decision results and reasons webhooks~~
@@ -233,15 +233,15 @@ Here are some of the ways you can contribute:
 **Workflow engine**
 - [x] ~~Orchestrate all parts of the flow~~
 - [x] ~~Visualize a workflow (using XState)~~
-- [ ] No code/Low code rules managmgnet UI for non technical team members
+- [ ] No code/Low code rules management UI for non technical team members
 - [ ] A/B test different vendors/rules/flows
 
 **Rule engine**
 - [x] ~~Rule-sets in workflows~~
-- [x] ~~Simple rule types ("if this than that" rules)~~
+- [x] ~~Simple rule types ("if this then that" rules)~~
 - [ ] Advance rule types (Matrix, tables, etc.)
 - [x] ~~JSON configuration ability~~
-- [ ] No code/Low code rules managmgnet UI for non technical team members
+- [ ] No code/Low code rules management UI for non technical team members
 
 **Frontend headless SDK**
 - [x] ~~Get KYC/KYB steps from workflow~~
